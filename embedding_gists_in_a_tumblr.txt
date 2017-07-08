@@ -1,0 +1,14 @@
+Embedding Gists in a Tumblr
+
+1) Go to your Tumblr Dashboard & select your blog (if you have more than one)
+2) Click “Customize Theme”
+3) Click “Edit HTML”
+4) Paste the three ‘script’ lines from below just before your closing head tag.
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="http://static.tumblr.com/fpifyru/VCxlv9xwi/writecapture.js"></script>
+<script src="http://static.tumblr.com/fpifyru/AKFlv9zdu/embedgist.js"></script>
+
+Now when you want to embed that gist just type this line directly into your post:
+
+<div class="gist">https://gist.github.com/#INSERT GIST NUMBER HERE#</div>
